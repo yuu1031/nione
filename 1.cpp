@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<iostream> 
 using namespace std;
 void queen(char a[])
@@ -52,4 +53,45 @@ int main()
 	}
 	 queen(a);
 	 return 0;
+=======
+#include  <iostream> 
+#include<iomanip> 
+#include  <cmath> 
+using  namespace  std; 
+const  double  PI=3.1415926; 
+class cylinder
+{
+	private :
+		double h,r;
+		
+	public :
+		double a,b;
+		void init(double h, double d)
+		{
+			a=PI*d*d*h;
+			b=PI*2*d*h+2*PI*r*r;
+		}
+
+		double getvolumn()
+		{
+			return a;
+		}
+		double getarea()
+		{
+			return b;
+		}
+};
+cylinder can;
+int  main() 
+{ 
+        double  d,h; 
+        cin>>d>>h; 
+        can.init(h,d/2); 
+		can.getvolumn();
+		can.getarea();
+        cout<<fixed<<setprecision(6); 
+        cout<<"油桶的容积是"<<can.getvolumn()<<"  "<<endl; 
+        cout<<"铁皮的面积是"<<can.getarea()<<endl; 
+		return 0;
+>>>>>>> 3
 }

@@ -6,6 +6,7 @@
 --------------------Configuration: 1 - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
+<<<<<<< HEAD
 Creating temporary file "C:\Users\于小妮~1\AppData\Local\Temp\RSPF9AF.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
@@ -14,6 +15,17 @@ Creating temporary file "C:\Users\于小妮~1\AppData\Local\Temp\RSPF9AF.tmp" with 
 Creating command line "cl.exe @"C:\Users\于小妮~1\AppData\Local\Temp\RSPF9AF.tmp"" 
 <h3>Output Window</h3>
 Compiling...
+=======
+Creating temporary file "C:\Users\于小妮~1\AppData\Local\Temp\RSP511.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\于小妮yuu\Desktop\3\1.cpp"
+]
+Creating command line "cl.exe @"C:\Users\于小妮~1\AppData\Local\Temp\RSP511.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+>>>>>>> 3
 1.cpp
 
 
