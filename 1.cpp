@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include<iostream> 
 using namespace std;
 void queen(char a[])
@@ -94,4 +95,31 @@ int  main()
         cout<<"铁皮的面积是"<<can.getarea()<<endl; 
 		return 0;
 >>>>>>> 3
+=======
+ #include<iostream>
+using namespace std;
+int main()
+{
+    double n1;
+	int a[4];
+	int i,n;
+    cin>>n1;
+	n=n1*10;
+	for(i=0;i<4;i++)
+	{	
+		
+		a[i]=n%10;
+		n=n/10;
+	}
+	for(i=0;i<4;i++)
+	{
+		{
+			if(i==1)
+			cout<<".";
+		}
+	cout<<a[i];
+	}
+
+    return 0;
+>>>>>>> luo P5705
 }
