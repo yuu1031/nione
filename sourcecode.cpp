@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //实现功能：既能排序整型数，也可以排序字符串
 
 #include <iostream>
@@ -77,6 +78,72 @@ int main()
 		cout<<arr[i]<<" ";
 	}	
 	cout<<endl;
+=======
+#include <iostream>
+#include <string>
+using namespace std;
+
+class CStudent
+{
+
+private:
+   const char *name="noname";
+
+    int age;
+public:
+    static int count;
+    static int getcount()
+    {
+        return count;
+    }
+    CStudent(const char a[],int age)
+    {
+        name=a;
+        this->age=age;
+        count++;
+        cout<<name<<" is contructing"<<endl;
+    }
+     CStudent()
+    {
+        count++;
+        cout<<" noname is contructing"<<endl;
+    }
+    ~CStudent( )
+    {
+        count--;
+        cout<<name<<" is destructing"<<endl;
+    }
+
+    void printname()
+    {
+        cout<<"name:"<<name<<endl;
+    }
+
+};
+//请在这里初始静态成员变量
+int CStudent::count=0;
+
+
+int main()
+{
+	cout << "现在有学生" << CStudent::getcount() << endl;
+	{
+		CStudent stuB[5];
+		stuB[4].printname();
+		cout << "现在有学生" << CStudent::getcount() << endl;
+	}
+	cout << "现在有学生" << CStudent::getcount() << endl;
+	{
+		CStudent stuA[2] = {CStudent("Tom", 3), CStudent("Jerry", 2)};
+		for (int i = 0; i < 2; i++)
+		{
+			stuA[i].printname();
+		}
+		cout << "现在有学生" << CStudent::getcount() << endl;
+	}
+	cout << "现在有学生" << CStudent::getcount() << endl;
+
+>>>>>>> 6(2)
 	return 0;
 }
 
