@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>图片/1592714836801.png</file>
+        <file>图片/图片/1592717247912.png</file>
+        <file>图片/图片/1592717270544.png</file>
+        <file>图片/图片/1592717287981.png</file>
+        <file>图片/图片/1592717304603.png</file>
+        <file>图片/1592717766349.png</file>
+        <file>图片/1592718304362.png</file>
+        <file>图片/1592718688740.png</file>
+        <file>图片/1592718709254.png</file>
+        <file>图片/1592719061810.png</file>
+        <file>图片/1592719099219.png</file>
+        <file>图片/ding.png</file>
+    </qresource>
+</RCC>
